@@ -6,7 +6,7 @@ def multi_items(dict):
     product = 1
     for key, value in dict.items():
         product *= value
-    return product
+    return f"This is the product of values in the dictionary = {product}"
 
 dict1 = {1: 1, 2: 2, 3: 3, 4: 4, 5: 5}
 
